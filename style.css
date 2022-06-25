@@ -1,0 +1,178 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family:"adobe-garamond-pro";
+    src:url("https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+    }
+
+
+* {
+     margin: 0;
+}
+
+
+.heading-1 {
+    background-image: url(/images/adam-jang-MLKrf51NV8w-unsplash.jpg);
+    background-size: cover;
+    height: 100vh ;
+    font-family: 'proxima_nova_rgregular';
+}
+
+
+nav-bar {
+    height: 75px;
+    width: 100%;
+}
+
+
+#logo1 {
+    width: 5%;
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+
+#menu {
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: beige;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#TakeActionButton{
+    background-color: teal;
+    border-radius: 70px;
+    height: 50px;
+    border: 2px solid beige;
+}
+
+
+.heading-2{
+    text-align: center;
+    padding-top: 28vh;
+}
+
+.LearnMore1 {
+    border: 0 solid white;
+    color: white;
+    background-color: teal;
+    border-radius: 70px;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.paragraph-1{
+    padding: 100px 0;
+    font-family: "adobe-garamond-pro";
+    text-align: center;
+}
+
+.paragraph-2{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: grey;
+}
+
+.paragraph-3{
+    font-size: 17px;
+    padding: 20px 0;
+    margin: 0 17%;
+    color: grey;
+    font-weight: 400;
+}
+
+.pic {
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.pic-des1{
+    width: 350px;
+    padding-top: 70px;
+    padding-left: 80px;
+}
+
+.pic-des1-para {
+    padding-bottom: 10px;
+}
+
+.pic-des-heading {
+    font-family: "proxima_nova_rgregular";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: grey;
+    padding-bottom: 30px;
+}
+.pic-des2 {
+    width: 350px;
+    padding-top: 70px;
+    padding-right: 80px;
+}
+
+
+/* .pic-des2-para {
+    font-family: "adobe-garamond-pro";
+    font-size: 20px;
+    color: #1a1a1ab3;
+    padding-bottom: 10px;
+    line-height: 30px;
+  } */
+
+  .sub {
+    text-align: center;
+  background-color: rgb(240, 239, 239);
+  padding-bottom: 80px;
+  }
+
+#signup {
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+    border: none;
+    font-family: "adobe-garamond-pro";
+    color: white;
+    width: 120px;
+    font-size: 15px;
+}
+
+.foot {
+    background-color: teal;
+    height: 150px;
+    color: beige;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: "proxima_nova_rgregular";
+    letter-spacing: 2px;
+}
